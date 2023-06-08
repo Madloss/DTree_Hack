@@ -226,6 +226,8 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.RJTheme7
     elseif themeList == "RJTheme8" then
         themeList = themeStyles.RJTheme8
+    elseif themeList == "RJTheme9" then
+        themeList = themeStyles.RJTheme9
     else
         if themeList.SchemeColor == nil then
             themeList.SchemeColor = Color3.fromRGB(74, 99, 135)
