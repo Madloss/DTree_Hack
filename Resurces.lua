@@ -163,6 +163,18 @@ local themeStyles = {
     TextColor = Color3.fromRGB(255,255,255),
 	-- Цвет фона у кнопок
     ElementColor = Color3.fromRGB(20, 20, 20)
+    },
+    RJTheme9 = {
+	-- Цвет фона у Секций
+    SchemeColor = Color3.fromRGB(147,112,219),
+	-- Цвет фона в правой части UI
+	Background = Color3.fromRGB(15,15,15),
+	-- Цвет фона в левой части UI
+    Header = Color3.fromRGB(15,15,15),
+	-- Цвет текста
+    TextColor = Color3.fromRGB(255,255,255),
+	-- Цвет фона у кнопок
+    ElementColor = Color3.fromRGB(147,112,219)
     }
 }
 local oldTheme = ""
